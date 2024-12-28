@@ -36,8 +36,8 @@ getPokemonById(4)
 .then(pokemon => console.log(pokemon))
 .catch(error => console.log(error))
 .finally(()=> console.log('Proceso terminado'));*/
-
+/*
 const {buildLogger} = require('./plugins/index');
 const logger = buildLogger('app.js');
 logger.log('Hola mundo');
-logger.error('Hola ERROR');
+logger.error('Hola ERROR');*/
