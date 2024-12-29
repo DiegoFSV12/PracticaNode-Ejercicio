@@ -29,13 +29,13 @@ const john = makePerson(obj);
 console.log(john);
 */
 
-/*
+
 const {getPokemonById} = require('./js-foundation/06-promises');
 
 getPokemonById(4)
-.then(pokemon => console.log(pokemon))
-.catch(error => console.log(error))
-.finally(()=> console.log('Proceso terminado'));*/
+.then((pokemon: Number|String) => console.log(pokemon))
+.catch((error: Error) => console.log(error))
+.finally(()=> console.log('Proceso terminado'));
 
 /*import { buildLogger } from "./plugins/logger.plugin";
 const logger = buildLogger('app.js');
